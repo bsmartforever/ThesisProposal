@@ -1,0 +1,245 @@
+%% This is emulateapj reformatting of the AASTEX sample document
+%%
+\documentclass[iop]{emulateapj}
+%\documentclass[12pt, preprint]{aastex}
+
+%\newcommand{\deluxetablestar}{deluxetable*} % for emulateapj
+
+%\usepackage{graphicx} %allows .eps and .epsi graphics to be inserted
+%\usepackage{epic} %allows use of latex graphics
+%\usepackage{eepic} %=allows use of latex graphics
+%\usepackage{amssymb}
+%\usepackage{amsfonts}
+%\usepackage{psfrag}
+%\usepackage{float}
+%\usepackage{bar}
+%\usepackage{tipa}
+%\usepackage[centerfoot]{pageno}
+%\usepackage{longtable}
+%\usepackage{amsmath,amsopn,amsxtra}
+%\usepackage{hyperref} %allows hyperlinks
+%\usepackage[tight,TABTOPCAP]{subfigure} 
+%\usepackage{palatino, url, multicol}
+%\newcommand{\be}{\begin{equation}} %these definitions save typing
+%\newcommand{\ee}{\end{equation}}
+%\hypersetup{colorlinks=true, linkcolor=black,  urlcolor=blue}
+%\newcommand{\arcdeg}{\ensuremath{^{\circ}}}%                    % degree symbol:  °
+
+
+\usepackage{comment} 
+\usepackage{wrapfig}
+\usepackage{graphicx}
+\graphicspath{ {/Users/bsmart/Desktop/ThesisProposal/images/}} 
+
+
+\newcommand{\ha}{H$\alpha$}
+\newcommand{\hb}{H$\beta$}
+\newcommand{\kms}{ \ifmmode{\rm km\thinspace s^{-1}}\else km\thinspace s$^{-1}$\fi}
+\newcommand{\dg}{\ifmmode{^{\circ}}\else $^{\circ}$\fi}
+
+\newcommand{\hi}{\ion{H}{1}}
+\newcommand{\hii}{\ion{H}{2}}
+\newcommand{\nhi}{$N_{\rm{H\sc{I}}}$}
+\newcommand{\nh}{$N_{\rm{H}}$}
+\newcommand{\lb}{\ifmmode{(\ell,b)} \else $(\ell,b)$\fi}
+\newcommand{\nii}{[\ion{N}{2}]}
+\newcommand{\niiblue}{[\ion{N}{2}]$~\lambda5755$}
+\newcommand{\sii}{[\ion{S}{2}]}
+\newcommand{\oiii}{[\ion{O}{3}]}
+\newcommand{\hei}{\ion{He}{1}}
+\newcommand{\oi}{[\ion{O}{1}]}
+
+\newcommand{\vlsr}{\ifmmode{v_{\rm{LSR}}}\else $v_{\rm{LSR}}$\fi}
+\newcommand{\av}{\ifmmode{A(V)}\else $A(V)$\fi}
+\newcommand{\ebv}{\ifmmode{E(B-V)}\else $E(B-V)$\fi}
+\newcommand{\iha}{\ifmmode{I_{\rm{H}\alpha}} \else $I_{\rm H \alpha}$\fi}
+\newcommand{\ihb}{\ifmmode{I_{\rm{H}\beta}} \else $I_{\rm H \beta}$\fi}
+\newcommand{\isii}{\ifmmode{I_{\ion{\rm{S}}{2}}} \else $I_{\rm [S \textsc{ ii}]}$\fi}
+\newcommand{\inii}{\ifmmode{I_{\ion{\rm{n}}{2}}} \else $I_{\rm [N \textsc{ ii}]}$\fi}
+\newcommand{\ioi}{\ifmmode{I_{\ion{\rm{o}}{1}}} \else $I_{\rm [O \textsc{ i}]}$\fi}
+
+\newcommand{\vhi}{$\bar{v}_{\rm{H}\textsc{ i}}$}
+\newcommand{\vha}{$\bar{v}_{\rm{H}\alpha}$}
+
+\newcommand{\mc}{\multicolumn{2}{c}}
+\newcommand{\tnma}{\tablenotemark{a}}
+\newcommand{\tnmb}{\tablenotemark{b}}
+\newcommand{\tnmc}{\tablenotemark{c}}
+\newcommand{\tnmd}{\tablenotemark{d}}
+
+\newcommand{\ns}{\hspace{-1.2mm}}
+
+\newcommand{\fwhm}{{\scriptsize{FWHM}}}
+
+
+%Note: \subsection*{title} will result in an unnumbered subsection
+
+\newcommand{\myemail}{bsmart@astro.wisc.edu}
+\shorttitle{Magellanic Stream Map}
+\shortauthors{Smart et al.}
+
+\bibliographystyle{apj}
+
+\begin{document}
+
+\author{B. M. Smart\altaffilmark{1}, L. M. Haffner, K. A. Barger}
+\affil{Department of Astronomy, University of Wisconsin-Madison, Madison, WI 53706}
+%\email{kbarger@astro.wisc.edu, hill@astro.wisc.edu, haffner@astro.wisc.edu, wakker@astro.wisc.edu, madsen@aao.gov.au}
+
+\title{A Survey of the Magellanic System with WHAM }
+
+
+\begin{abstract}
+blahblahblah
+\end{abstract}
+
+
+\maketitle
+
+
+\section{Introduction}
+
+The Magellanic System has long been a laboratory for our understanding of galactic interactions and evolutions. The Large Magellanic Cloud, the Small Magellanic Cloud, the Bridge, the Leading Arms, and the Magellanic Stream make up the full system, stretching more then 200$\arcdeg$ across the sky. The first hints that the Magellanic Clouds were interacting with each other was discovered blach blah. With these galaxies only $\sim$50-60 kpc away, they provide a close up view of such interactions. By studying \ha $\lambda$6563 we can better understanding the physical conditions of warm ionized gas within the Stream. We also have insight into the future of the Milky Way. The Magellanic Stream funnels roughly 0.4  $M_{\odot}$  yr 1 in H I gas \( van Woerden \& Wakker 2004 \) and as least as much in ionized gas (Bland-Hawthorn et al. 2007; Fox et al. 2010) to the Milky Way. The Stream will likely have an impact on the future star formation of the Milky Way.
+
+\subsection{History of the Stream}
+
+Mathewson  et  al.  (1974)  used  the  Parkes radio telescope to trace the structure back to the Magellanic Clouds, and coined the term Magellanic Stream (hereafter the Stream)first in 1974 and again in 1977. The most the most recent and complete survey was done by Nidever et al. (2008, 2010), and McClure-Griffiths et al. (2009). These surveys have thoroughly investiagated the nuetral component of the Stream and Clouds. However, no complete survey in \ha has ever been attempted. Due to the sensitivity required for detecting of \ha and the spacial scale of the Stream, a full survey using telescopes that can detect the \ha emission would be extremely time intensive, and thus impractical. However, WHAM was specially designed for faint \ha detections, and as a survey telescope, is able to scan the large region of the sky relatively quickly.
+
+The Stream has a total H I mass of 2.7·108 M (for a distance d=55 kpc, and including the “Interface Region” near the SMC; Bruns et al. 2005).
+
+H? emission traces the warm ionized gas in the Stream in a complementary manner to the low-ion UV absorption lines. \ha is a recombination line whose intensity scales as density squared, whereas the strength of UV absorption scales linearly with the density. Thus the H? emission preferentially traces the densest regions of plasma in the Stream. The first measurements of H? emission from the Stream \(Weiner \& Williams 1996\) found intensities in the range 0.20-0.37 Rayleighs1. These authors interpreted this emission as the signature of an extended gaseous halo that is ram pressure-stripping the cool gas in the Stream. Putman et al. (2003a) found that the H? emission is more variable, with intensities between 0.10 and 0.41 Rayleighs. Although the H? intensity of other (less distant) HVCs has been used as an approximate distance indicator (Bland-Hawthorn et al. 1999, 2002; the H? intensity scales linearly with the incident Lyman continuum flux, which declines with distance from the Galaxy), the variability of the H? from the Stream challenges its use as a distance indicator. H? emission was detected from several small clumps (in the MS IV region) by Yagi et al. (2012), who favored a shock-cascade origin for the H? (Bland- Hawthorn et al. 2007, Tepper-Garcia et al. 2015) since these clumps lie at the leading edge of a downstream cloud. A more recent survey of 17 Stream directions with the Wisconsin H? Mapper (WHAM; Barger et al. 2015, in prep.) finds that the H? emission often extends several degrees off the edges of the H I contours, as if the H? traces the extended surfaces of the Stream’s neutral clouds and filaments.
+An alternative possibility is that the H? emission from the Stream was photo-excited by a burst of Galactic Center (GC) activity (such as a Seyfert flare) ?2 Gyr ago (Bland- Hawthorn et al. 2013). In this scenario the Stream was ionized by GC Lyman-continuum photons and is now recombining and emitting H?. The ?2 Gyr timescale is plausible since (a) it is similar to the estimated age of the Fermi Bubbles that surround the GC and are powered by some form of GC activity (Su et al. 2010), and (b) the nuclear wind has been dated to ?2–4Gyr based on velocity measurements from UV absorption lines (Fox et al. 2015). The variability of the observed H? from the Stream makes it difficult to search for enhanced emission in a cone below the south Galactic pole, which is a signature of this GC flare model, but such enhanced ionization might be detected by a sufficient number of UV absorption-line observations of suitably-placed QSOs.
+
+It has been argued that the Stream is a young feature (1–2 Gyr; Besla et al. 2007), which provides a constraint on origin models. The arguments for a young Stream are twofold, but have attached caveats. First, simulations of the survivability of high-velocity clouds moving in a hot external medium (Heitsch \& Putman 2009; Joung et al. 2012) find that clouds evaporate on timescales of hundreds of Myr to ?1 Gyr. However, the cloud lifetime depends on the HVC mass: these simulations only considered HVCs with H I masses <104.5 M?, whereas the largest Stream clumps are more massive (and longer lasting). Second, the Stream exhibits high H? emission (see Section 2.2.4), which may indicate that its gas is being ablated away on a 100-200 Myr timescale (Bland-Hawthorn et al. 2007). However,
+16 D’Onghia and Fox
+the origin of the H? emission is unclear: it may be shock-ionized and/or photoionized, so the H? intensity does not provide a clean diagnostic on age. Therefore, there are no clear observational constraints on the Stream’s age.
+
+\subsection{History of the LMC and SMC}
+
+The Large Magellanic Cloud (LMC) and Small Magellanic Cloud (SMC) are interacting dwarf irregular galaxies visible to the naked eye in the southern hemisphere. Due to their proximity, they are present a unique opportunity to study galaxy-galaxy interactions, as well as investigate how satellite  galaxy pairs interact with their host galaxy. T
+
+4.0·108 M
+
+4.4·108 M
+
+\subsection{Observations in \hi}
+
+\subsection{ \ha Detections in the Stream}
+
+
+\section{What will I do}
+
+I plan on mapping the Magellanic Stream with WHAM in \ha and combining the new map with previous observations of the LMC, SMC, and Bridge. The map will cover, at minimum, the "core" of the Magellanic stream (\textit{l,b})=(-15\arcdeg,0\ns\arcdeg$\pm$10 to (\textit{l,b})=(-120\arcdeg,0\ns\arcdeg$\pm$10). This map will start at the outer edge of the SMC and continue on to the known end of the known HI map, but instead away from it to determine how far out the \ha~gas extends. Once the "core" of the Stream is mapped, the survey will extend farther out, to $\pm$20 Magellanic latitude to investigate if the diffuse \ha extends beyond the known \hi components of the Stream. The stream covers a velocity range of $\sim$-400-+150\kms~\vlsr~(figure \ref{figure:LMC_SMC})These figures were produced using the Leiden/Argentine/Bonn (LAB) Galactic H{\sc~i}~Survey \citep{Kal05}  
+
+
+
+
+To map out the Stream, we have to probe deeper in velocity space then WHAM's velocity window of 200\kms. Multiple position space overlapping observations will need to be made to cover this velocity window. Thistechnique was previoously used in Kat Barger's BLAHG paper on the Magellanic Bridge. In the standard survey mode, WHAM's mapping mode is to have a grid of 1\arcdeg~pointings that do not over lap but have a central separation of 1\arcdeg. These pointings are often smoothed to produce a map. With the Stream, where the structure is at smaller scales then the galactic structure, Instead of the conventional WHAM mapping mode, we plan on Nyquist-sampling the Stream by having each beam overlap its neighbor pointing by 0.5\arcdeg. This would improve the angular resolution by a factor of $\sim$2 as well as improve the signal-to-noise.
+
+
+
+The previous study of the Magellanic Bridge showed that emission could extend beyond the bridge by X degrees. Additionally, the initial observations o the LMC and SMC have shown emission x degrees beyond the traditional neutral boundary of the Magellanic Clouds. \ha~might extend far off the bridge. This survey will go to more negative velocity space then previous WHAM surveys in \ha. Callibrators and sky templates were created for past surveys with a lower velociity window. To be able to properly   I will try to determine a suitable off by finding locations by searching where there is very little \hi~present and preferably a few degrees away from the system. These offs will most likely have to be taken away from the Stream. Before I extensively map out the Bridge, I will first  map out that region opposite of the Bridge in hopes of locating suitable offs. With WHAM's 1\arcdeg~beam size, this should be done relatively fast and could probably be done in 1 nights time. If suitable off locations cannot be found, atmospheric templates can be used instead. 
+
+
+\begin{wrapfigure}{l}{0.5\textwidth}
+  \begin{center}   
+   \includegraphics[width=\textwidth]{magstream_nrao_big}
+  \end{center}
+  \caption{Birds}
+\end{wrapfigure}
+
+% Use the WHAM filter picture, and maybe highlight the regions avaliable to me?
+The current WHAM filters almost cover the total velocity range of the Magellanic system in \ha from $\sim$50 to 400\kms~\vlsr. I have Figures \ref{figure:Filter_Ha} to \ref{figure:Filter_SII}  show the coverage region for WHAM's current filters. This coverage region takes into account the largest possible deviation from \vlsr (19.7\kms) that the observations could have throughout the year as well as a slight blue shift of $\sim$2.5\AA in our spectrum that results from light not in the beam center hitting the filters slightly off the normal. This spectral range coverage shown in these figures includes and added buffer of -50\kms on the low velocity side and a +75\kms on the high velocity side to allow for line broadening and to allow for extra coverage on either side of the line to acquire a background level. The current WHAM filters are able to cover a majority of the needed velocity range, but we are concerned about needing to go past the red end of the H-Barr filter. We are currently in the early stages of obtaining a new H$\alpha$ red filter to cover this region. Other filters might be ordered for other lines as well, but at minimum a new \ha~filter will be ordered. 
+
+
+Cite previous evidence of ionization in Stream here. Mapping out the Bridge in \ha~will enable us to better determine the ionization fraction entire Stream and aid in determining if the stream is partially ionized or, as theorized by blah, the majority of the Stream is in an ionized state. 
+
+In addition to the map of the Stream, Kat Barger and Alex Hill have made prior observation of the LMC and SMC which have yet to be analyzed. With the two galaxies mapped with WHAM, combined with the new Stream observations and Kat Barger's Bridge observations, we should be able to complete the first consistent map of the Magellanic system, with the with the Leading Arm observations to be made at a later date by Kat Barger's graduate student.
+
+By completing observations of the LMC, SMC, and Stream, and combining these with the finished 
+ 
+\section{Why use WHAM?}
+
+\begin{figure*}[!t]
+\includegraphics[scale=.15]{magstream_nrao_big}
+\caption{BLAAAAAHGABLAGABLAG}
+\end{figure*}
+
+%\begin{wrapfigure}{l}{0.5\textwidth}
+ % \begin{center}   
+  % \includegraphics[width=\textwidth]{MagellanicObservedBlocks}
+  %\end{center}
+  %\caption{Birds}
+%\end{wrapfigure}
+
+
+The WHAM facility was specifically designed to study faint optical emission lines from diffuse sources. \ha~emission is produced through a recombination. The intensity of the line is dependent on the integrated electron density squared, also known as the Emission Measure ($EM=\int n_e^2 dz$). As a result, these lines are very weak and an instrument with high sensitivity is necessary to observe them. Talk about previous studies. WHAM is better. WHAM is sensitive down to 0.2~R\footnote{$1~R=10^6/4\pi~\text{photons}~cm^{-2}sr^{-1}s^{-1}$}, enabling us to map faint emission away from the core of the Magellanic Stream.
+
+WHAM is composed of a dual-etalon Fabry-Perot spectrometer with a 0.6~m siderostat. In WHAM's normal spectral mode, it has a 1\arcdeg~field of view and a 12~\kms~spectral resolution. This produces an average spectrum of everything within the beam and not of individual sources such as stars. Typical \ha~lines observed by WHAM have a \fwhm~of 20\kms~or larger, making the spectral resolution idea.  A 30 second exposure can ideally achieve a signal-to-noise of 20 for a 0.5~R line with a width of 20\kms (From Steve's Thesis, pg 7 section 1.3). If the beams are Nyquist-sampled, then we will be able to resolve the Bridge at $\sim$0.5~kpc size scales assuming a distance to the Bridge of 55~kpc. Most of the smallest scale structure would get averaged out at this scale, but we will still be able to probe the ionization fraction of the bridge and of H{\sc~ii} regions  (see Osterbrock 2006 pg 27 for size scales of H{\sc~ii} regions.  they are less then 100 pc). This angular resolution is too large to deeply probe the details of the H{\sc~ii} regions within the bridge. WHAM has an imaging mode with can produce $\sim$1\arcmin~resolution images within the 1\arcdeg~beam. In this imaging mode, it has a very narrow spectral bandpass of 12 to 200 \kms. With a spacial resolution of $\sim$16~pc at a distance of 55~kpc, WHAM imaging mode will provide the necessary spacial resolution to probe the structure of these H{\sc~ii} regions. 
+
+WHAM, originally located at Kitt Peak, Arizona, was relocated to CTIO in Chile in 2006??????. 
+
+
+\section{Schedule, Funding, and Facilities}
+
+\subsection{Schedule}
+
+For the first part of my thesis, I will be completing the analysis of the Small Magellanic Cloud. I will be investigating the total ionization fraction of the SMC, analyzing the rotation of the ionized gas, and mapping how far the faint emission reaches beyond the neutral gas component of the system. Once complete, I will attempt to create an atmospheric template for the velocity space of the LMC to try and correct for the oxygen doublet emission contaminating the data. Once this has been corrected for, I can analyze the LMC the same way as I have the SMC, combining these two surveys with the Bridge survey to create a complete map of the core Magellanic system. While I am working with the LMC and SMC data, I will be observing the Stream with WHAM to complete the survey of the core of the stream, and then move on to the fainter directions away from the Stream.
+
+\begin{itemize}
+\item \textbf{Summer 2016} Write SMC Paper. Visit to Chile for telescope maintenance. Visit to Kat for week long work session/collaboration.
+\item \textbf{Fall 2016} Stream has risen, it has risen indeed. Finish core of Stream and begin mapping fainter outer regions. Begin writing LMC paper \textbf{Submit SMC Paper}
+\item \textbf{Summer 2017} Visit KAt for weel long work session/collabortion. \textbf{Submit LMC Paper}
+\item \textbf{Fall 2017} Complete Stream Survey
+\item \textbf{Spring 2018} Finish Stream Paper/Entire Magellanic System paper Defend Thesis
+\end{itemize}
+
+\clearpage
+
+\begin{thebibliography}{35}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+
+ \bibitem[{{Demers \& Battinelli}(1999){Demers}, \& {Battinelli}}]{Demers99}{Demers}, S., \& {Battinelli}, P. 1999, \aj, 115, 154
+ \bibitem[{{Kalberla} {et~al.}(2005){Burton}, {Hartmann}, {Dap}, {Arnal}, {Bajaja}, {Morras}, \& {Pt\"{o}ppel}}]{Kal05}  {Kalberla}, P.~M.~W., {Burton}, W.~B., {Hartmann}, {Dap}, {Arnal}, E.~M., {Bajaja}, E., {Morras}, R., \& {Pt\"{o}ppel}, W.~G.~L. (2005), \aap, 440, 775
+  \bibitem[{{Lehner} {et~al.}(2008){Lehner},{Howk},{Keenan}, \& {Smoker}}]{lehner08}{Lehner}, N., {Howk}, J.~C., {Keenan}, F.~P., \& {Smoker}, J.~V. 2008, \apj, 678, 219
+  \bibitem[{{Muller} \& {Parker}(2007){Muller} \& {Parker}}]{Muller07}{Muller}, E., {Parker}, Q., 2007, Publ. Astron. Soc. Australia, 24, 69
+  \bibitem[{{Putman} {et~al.}(2003){Putman},{Bland-Hawthorn},{Veilleux},{Gibson},{Freeman}, \& {Maloney}}]{Putman03}{Putman}, M.~E., {Bland-Hawthorn}, J., {Veilleux}, S., {Gibson}, B.~K., {Freeman}, K.~C., \& {Maloney}, P.~R. 2003, 			\apj, 597,948
+
+ 
+\begin{comment}
+  \bibitem[{{Hartmann} {et~al.}(1997){Hartmann}, \& {Burton}}]{h97}{Hartmann}, D., {Burton}, W.B. 1997, Atlas of Galactic Neutral Hydrogen (Cambridge: Cambridge University Press)    
+  \bibitem[{{Kalberla} {et~al.}(2005){Burton}, {Hartmann}, {Dap}, {Arnal}, {Bajaja}, {Morras}, \& {Pt\"{o}ppel}}]{Kal05}  {Kalberla}, P.~M.~W., {Burton}, W.~B., {Hartmann}, {Dap}, {Arnal}, E.~M., {Bajaja}, E., {Morras}, R., \& {Pt\"{o}ppel}, W.~G.~L. (2005), \aap, 440, 775
+  \bibitem[{{Hill} {et~at.}(2009){Hill}, {Haffner}, \& {Reynolds}}]{hill09}{Hill}, {Haffner}, \& {Reynolds}, 2009, \apj, 703, 1832
+  \bibitem[{{Tufte} {et~al.}(1998){Tufte}, {Reynolds}, \& {Haffner}}]{trh98}{Tufte}, S.~L., {Reynolds}, R.~J., \& {Haffner}, L.~M. 1998, \apj, 504, 773
+  \bibitem[{{Wakker} \& {van Woerden}(1997)}]{wv97}{van Woerden}, H., {Wakker}, B. P., {Schwarz}, U.~J., {Peletier}, R.~F., \& {Kalberla}, P. M. W. 1997, in IAU Colloq. 186, The Local Bubble, ed. D. Breitschwerdt \& M. Freiberg (Berlin: Springer), 17
+  \bibitem[{Wakker}(2004){Wakker}]{W04}{Wakker}, B.~P. 2004, in High Velocity Clouds, ed. H. van {Woerden}, Wakker, B.~P., Schwarz, U.~J. \& de Boer K.~S. (Dordrecht: Kluwer), 25
+  \bibitem[{Wakker} {et~al.}(1996){Wakker}, {Howk}, {van Woerden}, {Beers}, {Kalberla}, {Danly}]{w96}{Wakker}, B.~P., {Howk}, C., {Schwarz}, U.~J., {van Woerden}, H., {Beers}, T.~C., {Wilhelm}, R., {Kalberla}, P.~M.~W., \& {Danly}, L. 1996, \apj, 473, 834  
+\end{comment}   
+   
+\end{thebibliography}
+
+\section{Appendix}
+
+
+
+
+\end{document}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

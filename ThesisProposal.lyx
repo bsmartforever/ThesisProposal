@@ -1,0 +1,2633 @@
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass emulateapj
+\begin_preamble
+\graphicspath{ {/Users/bsmart/Desktop/ThesisProposal/images/}} 
+
+
+\newcommand{\ha}{H$\alpha$}
+\newcommand{\hb}{H$\beta$}
+\newcommand{\kms}{ \ifmmode{\rm km\thinspace s^{-1}}\else km\thinspace s$^{-1}$\fi}
+\newcommand{\dg}{\ifmmode{^{\circ}}\else $^{\circ}$\fi}
+
+\newcommand{\hi}{\ion{H}{1}}
+\newcommand{\hii}{\ion{H}{2}}
+\newcommand{\nhi}{$N_{\rm{H\sc{I}}}$}
+\newcommand{\nh}{$N_{\rm{H}}$}
+\newcommand{\lb}{\ifmmode{(\ell,b)} \else $(\ell,b)$\fi}
+\newcommand{\nii}{[\ion{N}{2}]}
+\newcommand{\niiblue}{[\ion{N}{2}]$~\lambda5755$}
+\newcommand{\sii}{[\ion{S}{2}]}
+\newcommand{\oiii}{[\ion{O}{3}]}
+\newcommand{\hei}{\ion{He}{1}}
+\newcommand{\oi}{[\ion{O}{1}]}
+
+\newcommand{\vlsr}{\ifmmode{v_{\rm{LSR}}}\else $v_{\rm{LSR}}$\fi}
+\newcommand{\av}{\ifmmode{A(V)}\else $A(V)$\fi}
+\newcommand{\ebv}{\ifmmode{E(B-V)}\else $E(B-V)$\fi}
+\newcommand{\iha}{\ifmmode{I_{\rm{H}\alpha}} \else $I_{\rm H \alpha}$\fi}
+\newcommand{\ihb}{\ifmmode{I_{\rm{H}\beta}} \else $I_{\rm H \beta}$\fi}
+\newcommand{\isii}{\ifmmode{I_{\ion{\rm{S}}{2}}} \else $I_{\rm [S \textsc{ ii}]}$\fi}
+\newcommand{\inii}{\ifmmode{I_{\ion{\rm{n}}{2}}} \else $I_{\rm [N \textsc{ ii}]}$\fi}
+\newcommand{\ioi}{\ifmmode{I_{\ion{\rm{o}}{1}}} \else $I_{\rm [O \textsc{ i}]}$\fi}
+
+\newcommand{\vhi}{$\bar{v}_{\rm{H}\textsc{ i}}$}
+\newcommand{\vha}{$\bar{v}_{\rm{H}\alpha}$}
+
+\newcommand{\mc}{\multicolumn{2}{c}}
+\newcommand{\tnma}{\tablenotemark{a}}
+\newcommand{\tnmb}{\tablenotemark{b}}
+\newcommand{\tnmc}{\tablenotemark{c}}
+\newcommand{\tnmd}{\tablenotemark{d}}
+
+\newcommand{\ns}{\hspace{-1.2mm}}
+
+\newcommand{\fwhm}{{\scriptsize{FWHM}}}
+\end_preamble
+\options iop
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_math auto
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine natbib
+\cite_engine_type authoryear
+\biblio_style apj
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Abstract
+The Magellanic System has a neutral gas component that stretches more than
+ 
+\begin_inset Formula $200\arcdeg$
+\end_inset
+
+ across the sky due to interactions between the LMC and SMC.
+ Previous studies suggest that the ionized component of the Magellanic System
+ could be as high as 50% of the total gas mass.
+ To investigate the ionized gas in the system and its sources, I propose
+ a survey of the 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ha
+\backslash
+ 
+\end_layout
+
+\end_inset
+
+ emission in the LMC, SMC, and Stream with the Wisconsin H
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ha
+\backslash
+ 
+\end_layout
+
+\end_inset
+
+ Mapper.
+ These observations, combined with the prior survey of the Bridge and a
+ separate survey of the Leading Arms, will be the first thorough investigation
+ of the ionized gas in the Magellanic System.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+title{An H Survey of the Magellanic System with Wisconsin H Mapper }
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+author{B.
+ M.
+ Smart}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+affil{Department of Astronomy, University of Wisconsin-Madison}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+author{L.
+ M.
+ Haffner}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+affil{Department of Astronomy}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+and
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+author{K.
+ A.
+ Barger}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+affil{Texas Christian University, Fortworth Texas}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Introduction
+\end_layout
+
+\begin_layout Standard
+The Magellanic System has long been a laboratory for our understanding of
+ galactic interactions and evolution.
+ The system, which consists of the Large Magellanic Cloud, the Small Magellanic
+ Cloud, the Bridge, the Leading Arms, and the Magellanic Stream make up
+ our cosmic laboratory, stretching more than 
+\begin_inset Formula $200\arcdeg$
+\end_inset
+
+ (
+\begin_inset CommandInset citation
+LatexCommand citealt
+key "nidever2010the200textdegree"
+
+\end_inset
+
+ ) across the sky (See Figure 1).
+ With these galaxies only 
+\begin_inset Formula $\sim50-60$
+\end_inset
+
+ 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+kpc
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+ away, they provide a close up view of dynamic interactions between galaxies.
+ 
+\end_layout
+
+\begin_layout Standard
+The first hints that the Magellanic Clouds were interacting with each other
+ was the discovery of the gaseous Magellanic Bridge in 1953 by 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "kerr1957amagellanic"
+
+\end_inset
+
+, and again in 1963 by 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "hindman1963alow"
+
+\end_inset
+
+.
+ The Magellanic Stream, a trailing tail of neutral hydrogen, was first written
+ about by 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "mathewson1974themagellanic"
+
+\end_inset
+
+ and further supported the theory of interactions between the LMC and SMC.
+ 
+\end_layout
+
+\begin_layout Standard
+The neutral gas component of the system has been thoroughly studied 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "hindman1963alow,kalberla2005theleidenargentinebonn,nidever2010the200textdegree"
+
+\end_inset
+
+ however, the ionized gas portion of the Magellanic System remains largely
+ unknown outside a few limited surveys 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "lecoarer1993halphasurvey,barger2013warmionized,ambrocio-cruz2016thekinematical"
+
+\end_inset
+
+.
+ With the exception of Barger et al.
+ (2013), these surveys largely focus on H II regions and do not cover the
+ faint, diffuse gas of the warm ionized medium (WIM).
+ By studying 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ha
+\backslash
+ 
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset Formula $\lambda6563$
+\end_inset
+
+ we can better understanding the physical conditions of warm ionized gas
+ within the system, and get a better handle on the total gas content of
+ the Magellanic System.
+ Combined with our knowledge of the neutral gas such studies will provide
+ insight into the future of the Milky Way environment.
+ The Magellanic Stream funnels roughly 
+\begin_inset Formula $0.4M_{\odot}\unit{yr^{-1}}$
+\end_inset
+
+ in HI gas 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "vanwoerden2005highvelocity"
+
+\end_inset
+
+ and as least as much in ionized gas 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "bland-hawthorn2007thesource,fox2010exploring"
+
+\end_inset
+
+ to the Milky Way.
+ The Stream will likely have an impact on the future star formation of the
+ Milky Way.
+ Thus it is important to understand the properties of the gas that has been
+ stripped out of the Magellanic System and what is effecting it's ionization.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement t
+wide true
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="1" columns="1">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="center" valignment="top" width="0pt">
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename magellanicstreamhi_edit copy.jpg
+	display false
+	width 80text%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+HI image of the Magellanic System from the LAB survey 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "kalberla2005theleidenargentinebonn"
+
+\end_inset
+
+.
+ The different regions of the Magellanic System labeled.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+History of 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ha
+\backslash
+ 
+\end_layout
+
+\end_inset
+
+ studies in the LMC and SMC
+\end_layout
+
+\begin_layout Standard
+The Large Magellanic Cloud (LMC) and Small Magellanic Cloud (SMC) are interactin
+g dwarf irregular galaxies visible to the naked eye in the southern hemisphere.
+ Due to their proximity, they present a unique opportunity to study galaxy-galax
+y interactions, as well as investigate how satellite galaxy pairs interact
+ with their host galaxy.
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ha
+\backslash
+ 
+\end_layout
+
+\end_inset
+
+ surveys of the clouds have been completed most recently by 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "winkler2015theinterstellar"
+
+\end_inset
+
+ (MCELS).
+ However, these are only able to trace studies of H II regions and supernova
+ remnants (
+\begin_inset CommandInset citation
+LatexCommand citealt
+key "lecoarer1993halphasurvey,ambrocio-cruz2016thekinematical,takeuchi2016asystematic"
+
+\end_inset
+
+).
+ While these surveys pick up the densest regions emitting in 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ha
+\backslash
+ 
+\end_layout
+
+\end_inset
+
+ which are important for the study of star formation and death, they do
+ not detect the warm ionized medium, or WIM, of the galaxies.
+\end_layout
+
+\begin_layout Standard
+In the Milky Way, the WIM has a filling factor of 
+\begin_inset Formula $\AC$
+\end_inset
+
+30% 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "reynolds1977pulsardispersion,berkhuijsen1998thevolume,berkhuijsen2006filling"
+
+\end_inset
+
+, with emission visible in every direction.
+ It is pervasive throughout the galaxy, leading to questions about the source
+ of ionizing photons that heat the WIM.
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "miller1993thediffuse"
+
+\end_inset
+
+,
+\begin_inset CommandInset citation
+LatexCommand cite
+key "dove1994photoionization"
+
+\end_inset
+
+, and
+\begin_inset CommandInset citation
+LatexCommand cite
+key "dove2000theescape"
+
+\end_inset
+
+ suggest that radiation from early-type stars leaked through the cold H
+ I clouds where they formed, ionizing a warm neutral medium throughout the
+ galaxy.
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "mckee1977atheory"
+
+\end_inset
+
+ proposed that, instead of a warm medium ionized by young stars, the WIM
+ could be the result of the surfaces of neutral clouds embedded in a hot
+ medium.
+ However, it is difficult to get a complete census of possible ionizing
+ sources in the MW due to our location.
+ Galaxies like the Magellanic Clouds (MC) give us a chance to explore these
+ theories while having a thorough overview of the structure of a galaxy
+ and the collective sources of ionization.
+\end_layout
+
+\begin_layout Standard
+Magellanic irregular galaxies are similarly expected to have a high ionization
+ fraction of their interstellar gas.
+ However, few studies have been conducted investigating the WIM (referred
+ to as diffuse ionized gas (DIG) outside the MW) in dwarf galaxies.
+ There are a limited number of studies of the DIG which used aperture photometry
+ to measure 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ha
+\backslash
+ 
+\end_layout
+
+\end_inset
+
+ emission 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "hunter1990properties,hunter1992supergiant,hunter1993asurvey"
+
+\end_inset
+
+.
+ Hunter (1990) found that 15%-20% of 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ha
+\backslash
+ 
+\end_layout
+
+\end_inset
+
+ emission in dwarf irregular galaxies is from the diffuse ionized medium.
+ Unlike the Milky Way, constraining the filling factor and densities of
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ha
+\backslash
+ 
+\end_layout
+
+\end_inset
+
+ emitting gas in these galaxies is difficult, so the total ionization fraction
+ of the galaxies could not be determined.
+ Using assumptions of the properties of the DIG, they suggest that diffuse
+ material is the dominant form of ionized gas in dwarf irregulars.
+ However, these surveys focused more on the bright structures within the
+ galaxies than the faint portion of the DIG.
+ This restriction to brighter structures is due to the difficulty in detecting
+ the DIG in dwarf irregulars.
+ The prior studies listed were at the detection limit of their telescopes.
+ Hunter (1993) took deep 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ha
+\backslash
+ 
+\end_layout
+
+\end_inset
+
+ images of 51 irregular and amorphous galaxies, detecting emission down
+ to a few Rayleighs for the more nearby galaxies.
+ The COS/UVES Absorption Survey by 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "fox2013thecosuves"
+
+\end_inset
+
+ pushed the limit much lower, detecting ionized gas at much lower column
+ densities (
+\begin_inset Formula $\AC$
+\end_inset
+
+10%).
+ The detections confirmed that gas from the Magellanic System is flowing
+ in to the MW.
+ However they were limited to 69 AGN's located near the Magellanic System
+ and along the Stream.
+ WAM is able to probe fainter gas than Hunter (1993), down to a few mR,
+ and cover the entire system.
+ The Magellanic System study will give us a unique opportunity to investigate
+ the interstellar medium in other galaxies, as well as investigate how dwarf-dwa
+rf interactions strip out gas which is fed to another galaxy and enrich
+ larger companions.
+\end_layout
+
+\begin_layout Section
+History of 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ha
+\backslash
+ 
+\end_layout
+
+\end_inset
+
+ studies in the Stream
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset citation
+LatexCommand citet
+key "wannier1972asurvey"
+
+\end_inset
+
+discovered a high- velocity neutral gas cloud which did not appear to be
+ associated with the Milky Way.
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "mathewson1974themagellanic"
+
+\end_inset
+
+ later used the Parkes radio telescope to trace the structure back to the
+ Magellanic Clouds, and coined the term Magellanic Stream (hereafter the
+ Stream) first in 1974 and again in 1977.
+ The most recent and complete survey of the Stream was completed by 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "nidever2008theorigin,nidever2010the200textdegree"
+
+\end_inset
+
+ using the Leiden Arg-Bom HI survey (
+\begin_inset CommandInset citation
+LatexCommand cite
+key "kalberla2005theleidenargentinebonn"
+
+\end_inset
+
+, and 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "mcclure-griffiths2009gassthe"
+
+\end_inset
+
+.
+ The Stream has a total HI mass of 
+\begin_inset Formula $2.7\times10^{8}\unit{M_{\odot}}$
+\end_inset
+
+ (for a distance 
+\begin_inset Formula $d=55\unit{kpc}$
+\end_inset
+
+), including the Interface Region near the SMC ( Bruns et al.
+ 2005).
+ These surveys have thoroughly investigated the neutral component of the
+ Stream and Clouds.
+ However, no complete survey in 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ha
+\backslash
+ 
+\end_layout
+
+\end_inset
+
+ has ever been attempted.
+ Only small samplings of the Stream's 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ha
+\backslash
+ 
+\end_layout
+
+\end_inset
+
+ component have been studied.
+\end_layout
+
+\begin_layout Standard
+The first measurements of 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ha
+\backslash
+ 
+\end_layout
+
+\end_inset
+
+ emission from the Stream were completed by 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "weiner1996detection"
+
+\end_inset
+
+, where they found 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ha
+\backslash
+ 
+\end_layout
+
+\end_inset
+
+ intensities in the range 0.20-0.37 R.
+ They showed that models of ram pressure stripping ionizing the Stream could
+ reproduce the observed 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ha
+\backslash
+ 
+\end_layout
+
+\end_inset
+
+.
+ A later study by 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "putman2003themagellanic"
+
+\end_inset
+
+ found 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ha
+\backslash
+ 
+\end_layout
+
+\end_inset
+
+ emission with a wider range of intensities, between 0.10 and 0.41 R.
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ha
+\backslash
+ 
+\end_layout
+
+\end_inset
+
+ emission was also later detected in the MS IV region by 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "yagi2012candidates"
+
+\end_inset
+
+.
+ Twenty initial 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ha
+\backslash
+ 
+\end_layout
+
+\end_inset
+
+ observations were made in the Stream in 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "madsen2012ionized"
+
+\end_inset
+
+ using WHAM.
+ These 20 sightlines were located near the northern tip of the Stream, and
+ showed a significant ionization fraction of greater then 50%, with a intensity
+ of 160 mR.
+ A more recent survey of 17 Stream directions with the Wisconsin 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ha
+\backslash
+ 
+\end_layout
+
+\end_inset
+
+ Mapper (WHAM; Barger et al.
+ 2015) finds that the 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ha
+\backslash
+ 
+\end_layout
+
+\end_inset
+
+ emission often extends several degrees off the edges away from the HI boundarie
+s of current 21 cm surveys.
+ This finding is similar to the results found in the Bridge 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ha
+\backslash
+ 
+\end_layout
+
+\end_inset
+
+ study (Figure 2) and suggests that the gas content of the Stream extends
+ beyond the observed neutral component along the length of the Stream.
+ A thorough study of the 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ha
+\backslash
+ 
+\end_layout
+
+\end_inset
+
+ content of the Bridge 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "barger2013warmionized"
+
+\end_inset
+
+ suggested that 36%-56% of the neutral gas was ionized.
+ With this high ionization fraction the total gas mass of the Magellanic
+ System would be double if the Stream is similarly ionized.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement t
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="1" columns="1">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="center" valignment="top" width="0pt">
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename Bridge.tiff
+	display false
+	width 80col%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+The HI (a) and Hα (b) emission maps from the GASS Survey and WHAM observations,
+ respectively.
+ The emission is integrated over the v
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+LSR
+\end_layout
+
+\end_inset
+
+ range of +100 to +300 km/s.
+ The contour lines in panel (a) trace the 10
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+19
+\end_layout
+
+\end_inset
+
+ cm
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+−2
+\end_layout
+
+\end_inset
+
+HI column density at increments of 10, 20, 35, and 50.
+ The contour lines in panel (b) trace the non-extinction corrected Hα intensity
+ at 0.03 and 0.16 R.
+ The brightest Hα emission follows the high column density H I gas in the
+ Small Magellanic Cloud Tail (lower left) and the Large Magellanic Cloud
+ (upper right).
+ Figure taken from
+\begin_inset CommandInset citation
+LatexCommand cite
+key "barger2013warmionized"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+How the Stream was stripped from the MCs is a mystery.
+ Models favor close interactions between the MCs as the origin of the Stream
+\begin_inset CommandInset citation
+LatexCommand cite
+key "besla2007arethe,besla2012therole"
+
+\end_inset
+
+), though ram-pressure stripping and Supernovae blowout have been suggested
+ as contributors.
+ The current models ind (1-2 Gyr; 
+\begin_inset CommandInset citation
+LatexCommand citealt
+key "besla2007arethe,besla2012therole"
+
+\end_inset
+
+), which provides a constraint on origin models.
+ The However, models have yet to include the ionized gas content of the
+ Stream.
+ If the ionization fraction of the Stream is 50%, then a significant portion
+ of the gas mass is being left out of the dynamical models.
+ The high 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ha
+\backslash
+ 
+\end_layout
+
+\end_inset
+
+ emission seen in the Stream may also indicate that its gas is being ablated
+ away on a 100-200 Myr timescale 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "bland-hawthorn2007thesource"
+
+\end_inset
+
+.
+ Whether the Stream is shock-ionized and/or photoionized is still unknown,
+ thus the current models may overestimate or underestimate the lifetime
+ of the Stream.
+ Constraining the possible age of the Stream will be vital in improving
+ models of the Magellanic System's history.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement !t
+wide true
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="1" columns="1">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="center" valignment="top" width="0pt">
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename lonvel_edit.eps
+	display false
+	width 70page%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\emph on
+Longitude vs.
+ velocity of the Magellanic Stream
+\emph default
+.
+ This figure shows the HI velocities from the LAB survey, with the velocities
+ stacked by Magellanic longitude.
+ The Stream has a clear velocity gradient as you go from the LMC to the
+ end of the Stream.
+ The red line across the figure shows where Magellanic velocities can be
+ confused with Milky Way material.
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Similar to the DIG, the source of ionization is believed to be early-type
+ stars, and thus affected by star formation rate.
+ However, no star formation has been detected yet in the Stream.
+ The lack of stars in the Stream is supported by recent results from models
+ by 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "besla2012therole"
+
+\end_inset
+
+, which showed how the Stream can be formed via close interactions of the
+ MCs stripping out the gas, with the stars left behind.
+ Thus the source of ionization for the Stream remains a mystery.
+ Several models have been put forth to explain the ionization of the Stream.
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "yagi2012candidates"
+
+\end_inset
+
+ proposed a shock-cascade origin for the 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ha
+\backslash
+ 
+\end_layout
+
+\end_inset
+
+ (
+\begin_inset CommandInset citation
+LatexCommand citealt
+key "bland-hawthorn2007thesource"
+
+\end_inset
+
+; 
+\begin_inset CommandInset citation
+LatexCommand citealt
+key "tepper-garcia2015themagellanic"
+
+\end_inset
+
+) since these clumps lie at the leading edge of a downstream cloud.
+ Another idea, which used results from 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "madsen2012ionized"
+
+\end_inset
+
+, suggests that the Stream was photo-excited by a burst of Galactic Center
+ (GC) activity (such as a Seyfert flare) 
+\begin_inset Formula $\AC$
+\end_inset
+
+2 Gyr ago 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "bland-hawthorn2013fossilimprint"
+
+\end_inset
+
+.
+ The suggested source of ionization is GC Lyman-continuum photons, and the
+ ionized gas is now recombining and emitting 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ha
+\backslash
+ 
+\end_layout
+
+\end_inset
+
+.
+ However, the gas most affected by such a burst has radial velocities that
+ overlap with those of the MW, making it difficult to distinguish the Magellanic
+ gas from the galactic gas.
+ A thorough overview of all the properties of the Stream can be found in
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "donghia2015themagellanic"
+
+\end_inset
+
+.
+ To fully trace how the Stream is being excited, I will produce a full map
+ of this region as part of the Magellanic System Survey.
+ 
+\series bold
+My thesis will complete a full map of the Magellanic Stream and the regions
+ surrounding it, giving us a thorough survey of total ionized gas in the
+ Stream.
+\end_layout
+
+\begin_layout Section
+The Wisconsin 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ha
+\backslash
+ 
+\end_layout
+
+\end_inset
+
+ Mapper
+\end_layout
+
+\begin_layout Standard
+The WHAM facility was specifically designed to study faint optical emission
+ lines from diffuse sources.
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ha
+\backslash
+ 
+\end_layout
+
+\end_inset
+
+ emission is produced through a recombination of an electron with an ionized
+ nucleus.
+ The intensity of the line is dependent on the integrated electron density
+ squared, also known as the Emission Measure
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+In units of Rayleighs, the emission measure is 
+\begin_inset Formula $EM=4.858\times10^{17}T{}_{4}^{0.9}S(H\alpha)cm^{-6}pc,$
+\end_inset
+
+ with S(
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ha
+\backslash
+ 
+\end_layout
+
+\end_inset
+
+) in units of 
+\begin_inset Formula $ergss{}^{-1}cm^{-2}arcsec^{-2}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+.
+ As a result, these lines are very weak and an instrument with high sensitivity
+ is necessary to observe them.
+ Previous studies listed in Section 3 detected 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ha
+\backslash
+ 
+\end_layout
+
+\end_inset
+
+ with lower limit emission measures of 0.1-0.41 R.
+ However, these studies were limited due to small beam sizes making a full
+ survey of the Stream and System time intensive.
+ WHAM is sensitive down to 0.2 R, enabling us to map faint emission away
+ from the core of the Magellanic Stream.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement !t
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Tabular
+<lyxtabular version="3" rows="3" columns="1">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="center" valignment="top" width="0pt">
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename MS_Maps.1.pdf
+	display false
+	width 90col%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename MS_Maps.2.pdf
+	display false
+	width 90col%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename MS_Maps.3.pdf
+	display false
+	width 90col%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\emph on
+Magellanic Stream Pilot Study
+\emph default
+ 
+\emph on
+Snapshots
+\emph default
+.
+ The left hand column is HI from the LAB survey, and the contours trace
+ the HI densities.
+ The right hand column shows the Hα density, with the contours tracing the
+ location of the HI.
+ The data is section into windows of 20 km/s.
+ These maps show where the Hα traces the HI.
+ However, there are also isolated regions of Hα that are kinematically separate
+ from the HI.
+ Regions where HI is dominant can be boardered by high density Hα regions,
+ suggesting an ionized shell of gas around a neutral core.
+ Alternatively, there are regions of little to no HI where there is significant
+ Hα emission, suggestion regions that have been fully ionized.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+WHAM is composed of a dual-etalon Fabry-Perot spectrometer with a 0.6 m siderosta
+t.
+ In WHAM's normal spectral mode, it has a 
+\begin_inset Formula $1\arcdeg$
+\end_inset
+
+ field of view on the sky and a 12 km/s spectral resolution.
+ This produces an average spectrum of everything within the beam and not
+ of individual sources such as stars.
+ Typical 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ha
+\backslash
+ 
+\end_layout
+
+\end_inset
+
+ lines observed by WHAM have a fwhm of 20 km/s or larger, making the spectral
+ resolution ideal.
+ A 30 second exposure can achieve a signal-to-noise of 20 for a 0.5~R line
+ with a width of 20 km/s.
+ If the beams are Nyquist-sampled, then we will be able to resolve the Stream
+ at 0.5 kpc size scales assuming a distance to the Stream of 55 kpc at it's
+ closest point.
+ With a spacial resolution of 16 pc at a distance of 55
+\begin_inset Formula $\AC$
+\end_inset
+
+kpc, WHAM will provide the necessary spacial resolution to probe the structure
+ of these H II regions at the closest point of the Stream (
+\begin_inset CommandInset citation
+LatexCommand citealt
+key "osterbrock2005astrophysics"
+
+\end_inset
+
+ page 27).
+ While we will not be able to fully resolve the details of the Stream along
+ its entire length, we will be able to estimate the total ionized mass.
+ 
+\end_layout
+
+\begin_layout Standard
+Due to the sensitivity required for detecting of 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ha
+\backslash
+ 
+\end_layout
+
+\end_inset
+
+ and the spatial scale of the Stream, a full survey using telescopes that
+ can detect the 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ha
+\backslash
+ 
+\end_layout
+
+\end_inset
+
+ emission would be extremely time intensive, and thus impractical for most
+ other telescopes.
+ However, WHAM is specially designed for faint 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ha
+\backslash
+ 
+\end_layout
+
+\end_inset
+
+ detections, and as a survey telescope, is able to scan the large region
+ of the sky relatively quickly.
+ A full survey of the Magellanic System is will within reach with WHAM's
+ capabilities.
+\end_layout
+
+\begin_layout Section
+What Will I Do?
+\end_layout
+
+\begin_layout Subsection
+Science Questions
+\end_layout
+
+\begin_layout Standard
+My thesis will attempt to answer several questions about the Magellanic
+ System that have yet to be answered.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+How much ionized gas is in the Magellanic System?
+\end_layout
+
+\begin_layout Itemize
+What are the sources of ionization in the Magellanic System?
+\end_layout
+
+\begin_layout Itemize
+Was the Magellanic Stream ionized by a Seyfert burst from the Milky Way?
+\end_layout
+
+\begin_layout Standard
+With a complete Magellanic Stream map, we can hope to constrain the total
+ mass of the Stream, providing more complete parameters for theorists who
+ model the history and future of the Magellanic Clouds.
+ A map of the ionized gas will help us to constrain the possible sources
+ of ionization for the system.
+ Additionally, the theory that our Milky Way had a Seyfert burst in the
+ recent history can be further analyzed by obtaining a complete ionization
+ fraction of the region of the Stream suspected of being ionized by the
+ burst.
+ 
+\end_layout
+
+\begin_layout Subsection
+The Magellanic System Survey
+\end_layout
+
+\begin_layout Standard
+I plan on mapping the Magellanic Stream with WHAM in 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ha
+\backslash
+ 
+\end_layout
+
+\end_inset
+
+ and combining the new map with previous observations of the LMC, SMC, and
+ Bridge.
+ The map will cover, at minimum, the "core" of the Magellanic 0 to 
+\begin_inset Formula $-120\textdegree$
+\end_inset
+
+ Magellanic longitude.
+ Once the "core" of the Stream is mapped, the survey will extend out to
+ 
+\begin_inset Formula $\pm$
+\end_inset
+
+ 
+\begin_inset Formula $20\textdegree$
+\end_inset
+
+ degrees in Magellanic latitude to investigate if the diffuse 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ha
+\backslash
+ 
+\end_layout
+
+\end_inset
+
+ extends beyond the known HI components of the Stream.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement t
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="1" columns="1">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="center" valignment="top" width="0pt">
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename id_edit.eps
+	display false
+	width 100col%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+This figure shows the filter coverage over velocity space, as well as the
+ transmission curve of each filter.
+ The red hashed region marks the the velocity space covered by the Magellanic
+ Stream.
+ For full coverage of the Stream, multiple filters will be used, with some
+ velocities requiring observations using two different filters.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+As seen in Figure 3, the Stream covers a velocity range of -400
+\begin_inset Formula $\pm$
+\end_inset
+
+ 15 km/s v
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+lsr
+\end_layout
+
+\end_inset
+
+.
+ To map out the Stream, we have to probe deeper in velocity space than WHAM's
+ velocity window of 200 km/s.
+ Multiple space overlapping observations will need to be made to cover this
+ velocity window.
+ This technique was previously used in 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "barger2013warmionized"
+
+\end_inset
+
+ where the author used the same process to map the Bridge.
+ In the standard survey mode, WHAM's mapping mode has a grid of 
+\begin_inset Formula $1\arcdeg$
+\end_inset
+
+ pointings that do not over lap but have a central separation of 
+\begin_inset Formula $1\arcdeg$
+\end_inset
+
+.
+ These pointings are often smoothed to produce a map.
+ With the Stream, where we can expect structure to be faint, and will increase
+ our signal to noise by Nyquist-sampling the Stream, with each beam overlapping
+ its neighbor pointing by 
+\begin_inset Formula $0.5\arcdeg$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+The current WHAM filters cover the total velocity range of the Magellanic
+ system in 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ha
+\backslash
+ 
+\end_layout
+
+\end_inset
+
+ from 400 to -400km/s v
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+lsr
+\end_layout
+
+\end_inset
+
+.
+ Figure 5 shows the coverage region for WHAM's current filters across the
+ total velocity space.
+ The Stream's v
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+lsr
+\end_layout
+
+\end_inset
+
+ changes with longitude as you move along the Stream.
+ Much like the previously observed Bridge, the 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ha
+\backslash
+ 
+\end_layout
+
+\end_inset
+
+ emission that has been observed in the pilot study by Kat Barger has shown
+ that the emission is kinematically distinct from the neutral emission (See
+ Figure 4).
+ Due to some regions having a wider range in velocity than is covered by
+ our 200 km/s window, many regions will have to be observed over multiple
+ velocity windows to ensure that all possible 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ha
+\backslash
+ 
+\end_layout
+
+\end_inset
+
+ emission is observed.
+ Additionally, these velocity ranges are farther out then WHAM's standard
+ velocity space.
+ As a result, new atmospheric templates will have to be made to be able
+ to reduce data at these velocities.
+\end_layout
+
+\begin_layout Standard
+The Stream Survey has already been mapped out and planned for WHAM.
+ The Stream has been divided into 348 blocks, each with 
+\begin_inset Formula $\AC$
+\end_inset
+
+40 pointings.
+ Each pointing is a single exposure of either 30 or 60 seconds.
+ A single block takes 
+\begin_inset Formula $\AC$
+\end_inset
+
+ 40 minutes to observe with 60 second exposures per pointing for the faintest
+ directions.
+ If each block were to be observed with the longest exposure, it would take
+ 
+\begin_inset Formula $\AC$
+\end_inset
+
+240 hours to observe the entire Stream.
+ Already, 59 blocks have been observed, which has covered roughly 40% of
+ the central core of the Stream.
+ The blocks that contain HI emission will be prioritized, and the blocks
+ farthest from the Stream will be observed when possible.
+ Currently, I am working on a program to optimize when each block should
+ be observed to most efficiently map the Stream.
+ The interface region of the Stream was observed by Kat Barger and analyzed
+ by her student Mike Hernandez.
+ These observations have already been reduced and mapped, as can be seen
+ in Figure 5.
+ The data shows how the neutral component of the Stream do not necessarily
+ coincide with the ionized gas observed.
+ The ionized gas can also be seen extending away from the neutral component.
+ This indicates the necessity of observations beyond the known boundaries
+ of the HI gas.
+ 
+\end_layout
+
+\begin_layout Standard
+In addition to the map of the Stream, Kat Barger and Alex Hill have made
+ prior observation of the LMC and SMC which have yet to be analyzed thoroughly.
+ With the two galaxies mapped with WHAM, combined with the new Stream observatio
+ns and Kat Barger's Bridge observations, we will complete the first 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ha
+\backslash
+ 
+\end_layout
+
+\end_inset
+
+ map of the Magellanic System with a single observatory.
+ Once the LMC, SMC, and Stream have been completed, the observations will
+ be combined with the previous Bridge study to create a thorough map of
+ the Magellanic System (Figure 7).
+ The Leading Arm region will be observed at a later date by Kat Barger's
+ graduate student.
+ Figure 8 show samples of spectra that have been observed in the early stages
+ of the survey, with Figure 9 marking the regions that have already been
+ observed.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement !t
+wide true
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Tabular
+<lyxtabular version="3" rows="1" columns="2">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="center" valignment="top" width="0pt">
+<column alignment="center" valignment="top" width="0pt">
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename halphamoment.pdf
+	width 90col%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename himoment.pdf
+	width 90col%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\emph on
+Velocity maps of Hα and HI in the SMC
+\emph default
+.
+ Hα in the SMC is mostly found at ~160 km/s, with some more extreme velocities
+ towards the center of the galaxy.
+ In contrast, the HI spans 120-180 km/s with an obvious rotational component.
+ The Hα map was made without taking into account night to night variations
+ and is a preliminary result.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement t
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="1" columns="1">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="center" valignment="top" width="0pt">
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename Magellanic_System.eps
+	display false
+	width 100col%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\emph on
+Preliminary Magellanic System Map.
+ 
+\emph default
+This map shows the preliminary results of the LMC, SMC, and Bridge surveys
+ using WHAM.
+ The Bridge data is from Kat Barger (2013).
+ The SMC and LMC data has not yet been calibrated to take into account night
+ to night variations, or the differences from the different filters used.
+ The interior region of the image was scaled separately from the diffuse
+ gas to allow definition in the brighter regions to be seen.
+ The green contours follow the HI gas from LAB.
+ Image was created by Dhanesh Krishnarao
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Analysis
+\end_layout
+
+\begin_layout Standard
+Once the maps have been completed, we can use measured 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ha
+\backslash
+ 
+\end_layout
+
+\end_inset
+
+ emission to estimate the total ionized gas mass of the Magellanic System.
+ We can calculate the mass of the ionized gas as M
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+H+
+\end_layout
+
+\end_inset
+
+ = 1.4m
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+H
+\end_layout
+
+\end_inset
+
+n
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+e
+\end_layout
+
+\end_inset
+
+D
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+
+ΩL
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+H+
+\end_layout
+
+\end_inset
+
+, where Ω is the solid angle, D is the distance from the Sun, mH is mass
+ of a hydrogen atom, and the factor of 1.4 accounts for helium.
+ The integral of the square of the electron density over the path length
+ of ionized gas is the emission measure and effects the strength of the
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ha
+\backslash
+ 
+\end_layout
+
+\end_inset
+
+ emission.
+ The emission measure in its basic form is EM=
+\begin_inset Formula $\int n_{e}^{2}dl$
+\end_inset
+
+, however this can be combined with the line-of-sight depth equation 
+\begin_inset Formula 
+\[
+L_{H^{+}}=2.75(\frac{T}{10^{4}K})^{0.924}(\frac{I_{Hα}}{R})(\frac{n_{e}}{cm^{-3}})^{-2}pc
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Once combined, the results is the equation
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+EM=2.75(\frac{T}{10^{4}K})^{0.924}(\frac{I_{Hα}}{R})cm^{-6}pc
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+From Hill et al.
+ 2009, we can then take into account the 
+\begin_inset Formula $1\arcdeg$
+\end_inset
+
+ beam size and write the equation as
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+(\frac{M_{H^{+}}}{M_{sun}})_{beam}=8.26(\frac{D}{kpc})^{2}(\frac{EM}{pc*cm^{-6}})(\frac{n_{e}}{cm^{-3}})^{-1}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+where D is the estimated distance in kiloparsecs.
+ The distance to any section of the Stream is uncertain, and will likely
+ change as we move from the start of the Stream to the end.
+ Due to the variability in D, the calculation of the mass of the Stream
+ will be integrated over varying distances.
+ However, we will still be able to obtain an upper and lower limit for the
+ total mass of ionized gas in the Stream based on the estimated range of
+ distances.
+\end_layout
+
+\begin_layout Standard
+The SMC and LMC observations have both been completed.
+ The SMC data has been reduced, and the data will be calibrated for night
+ to night variations in transmission.
+ Once calibrated, the ionized gas mass will be calculated in a similar manner
+ to the Stream.
+ Initial moment maps have been created showing how the ionized gas moves
+ separately from the neutral gas.
+ The LMC data has been reduced, but an unknown atmospheric line contaminated
+ the data.
+ To remove this atmospheric line, additional observations of faint directions
+ in the sky will need to be observed.
+ These faint directions will be used to create an atmospheric template which
+ will be subtracted from the LMC observations.
+ If the template does not suffeciently remove the contaminating line, then
+ additional observations will be made with an alternate filter to attempt
+ to fill in the missing region.
+\end_layout
+
+\begin_layout Section
+Plan 
+\end_layout
+
+\begin_layout Standard
+For the first part of my thesis, I will be completing the analysis of the
+ Small Magellanic Cloud.
+ I will be investigating the total ionization fraction of the SMC, analyzing
+ the rotation of the ionized gas, and mapping how far the faint emission
+ reaches beyond the neutral gas component of the system.
+ I will then attempt to create an atmospheric template for the velocity
+ space of the LMC to try and correct for the pair of oxygen emission lines
+ contaminating the data.
+ Once this has been corrected for, I can analyze the LMC the same way as
+ I have the SMC, combining these two surveys with the Bridge survey to create
+ a complete map of the core Magellanic system.
+ While I am working with the LMC and SMC data, I will be observing the Stream
+ with WHAM to complete the survey of the core emission.
+ The atmospheric template will be extended so that it covers the entire
+ velocity space of the Stream in tandem with Stream observations.
+ The core region of the Stream will be finished by Fall of 2016, which will
+ cover the ionized gas which traces the neutral component of the Stream.
+ After completing the initial observations, I will begin mapping regions
+ further out in latitude from the Stream in an attempt to detect if the
+ diffuse ionized gas extends farther out then the neutral gas.
+\end_layout
+
+\begin_layout Subsection
+Plan Summary
+\end_layout
+
+\begin_layout Itemize
+Summer 2016 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Write SMC Paper.
+ Visit to Chile to observe onsite and collaborate.
+ Complete atmospheric template
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Fall 2016 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Stream has risen, it has risen indeed.
+ Finish core of Stream and begin mapping fainter outer regions.
+ Begin writing LMC paper Submit SMC Paper
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Winter 2017
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Attend AAS 229th meeting and present current results
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Summer 2017
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Visit Kat for week long work session/collaboration.
+ Submit LMC Paper 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Fall 2017 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Complete Stream Survey
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Spring 2018 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Finish Stream Paper/Entire Magellanic System paper.
+ Defend Thesis
+\end_layout
+
+\end_deeper
+\begin_layout Subsection
+Funding
+\end_layout
+
+\begin_layout Standard
+Research funding and funding for WHAM operations are supported by NSF award
+ AST-1108911.
+ Additionally I plan to TA an additional semester and to continue applying
+ for grants.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement !t
+wide true
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Tabular
+<lyxtabular version="3" rows="1" columns="3">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="center" valignment="top" width="0pt">
+<column alignment="center" valignment="top" width="0pt">
+<column alignment="center" valignment="top" width="0pt">
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename Preliminary1_edit_2.jpg
+	display false
+	width 70col%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename Preliminary2_edit_2.jpg
+	display false
+	width 70col%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename Preliminary3_edit_2.jpg
+	display false
+	width 70col%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\emph on
+Magellanic Survey Preliminary Spectra
+\emph default
+.
+ The black and blue snapshots above show regions where Hα and HI are observed,
+ often with a velocity offset of 
+\begin_inset Formula $\AC$
+\end_inset
+
+50-100 km/s in kinematic space.
+ The black marks observed Hα, the blue is HI observations from the LAB survey.
+ Figure A is an example locations where Hα is detected in the same direction
+ as the HI and offset by a negative velocity shift.
+ Figure A shows a region within the Stream where the Hα emission overlaps
+ with the HI velocities.
+ In Figure C, the velocity shift of the Hα compared to the HI is in the
+ positive direction.
+ The three regions where these observations were taken are marked in Figure
+ 8.
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement t
+wide true
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="1" columns="1">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="center" valignment="top" width="0pt">
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename observedsystem_crop_edit.jpg
+	display false
+	width 80text%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\emph on
+Observed Magellanic System Blocks
+\emph default
+.
+ This figure shows the regions of the Magellanic System that have already
+ been observed.
+ The red boxes show the LMC and SMC observations made previously by Kat
+ Barger and Alex Hill.
+ The blue box marks the preliminary survey of the Stream by Kat Barger.
+ The black boxes are the blocks from the Stream Survey that have already
+ been observed.
+ Blue points labeled A, B and C mark the regions plotted in Figure 6.
+ Around ~50 % of the Stream core has been observed.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset bibtex
+LatexCommand bibtex
+bibfiles "ThesisProposal"
+options "apj"
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document
