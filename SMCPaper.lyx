@@ -1,0 +1,1790 @@
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass emulateapj
+\begin_preamble
+\graphicspath{ {/Users/bsmart/Desktop/ThesisProposal/images/}} 
+
+
+\newcommand{\ha}{H$\alpha$}
+\newcommand{\hb}{H$\beta$}
+\newcommand{\kms}{ \ifmmode{\rm km\thinspace s^{-1}}\else km\thinspace s$^{-1}$\fi}
+\newcommand{\dg}{\ifmmode{^{\circ}}\else $^{\circ}$\fi}
+
+\newcommand{\hi}{\ion{H}{1}}
+\newcommand{\hii}{\ion{H}{2}}
+\newcommand{\nhi}{$N_{\rm{H\sc{I}}}$}
+\newcommand{\nh}{$N_{\rm{H}}$}
+\newcommand{\lb}{\ifmmode{(\ell,b)} \else $(\ell,b)$\fi}
+\newcommand{\nii}{[\ion{N}{2}]}
+\newcommand{\niiblue}{[\ion{N}{2}]$~\lambda5755$}
+\newcommand{\sii}{[\ion{S}{2}]}
+\newcommand{\oiii}{[\ion{O}{3}]}
+\newcommand{\hei}{\ion{He}{1}}
+\newcommand{\oi}{[\ion{O}{1}]}
+
+\newcommand{\vlsr}{\ifmmode{v_{\rm{LSR}}}\else $v_{\rm{LSR}}$\fi}
+\newcommand{\av}{\ifmmode{A(V)}\else $A(V)$\fi}
+\newcommand{\ebv}{\ifmmode{E(B-V)}\else $E(B-V)$\fi}
+\newcommand{\iha}{\ifmmode{I_{\rm{H}\alpha}} \else $I_{\rm H \alpha}$\fi}
+\newcommand{\ihb}{\ifmmode{I_{\rm{H}\beta}} \else $I_{\rm H \beta}$\fi}
+\newcommand{\isii}{\ifmmode{I_{\ion{\rm{S}}{2}}} \else $I_{\rm [S \textsc{ ii}]}$\fi}
+\newcommand{\inii}{\ifmmode{I_{\ion{\rm{n}}{2}}} \else $I_{\rm [N \textsc{ ii}]}$\fi}
+\newcommand{\ioi}{\ifmmode{I_{\ion{\rm{o}}{1}}} \else $I_{\rm [O \textsc{ i}]}$\fi}
+
+\newcommand{\vhi}{$\bar{v}_{\rm{H}\textsc{ i}}$}
+\newcommand{\vha}{$\bar{v}_{\rm{H}\alpha}$}
+
+\newcommand{\mc}{\multicolumn{2}{c}}
+\newcommand{\tnma}{\tablenotemark{a}}
+\newcommand{\tnmb}{\tablenotemark{b}}
+\newcommand{\tnmc}{\tablenotemark{c}}
+\newcommand{\tnmd}{\tablenotemark{d}}
+
+\newcommand{\ns}{\hspace{-1.2mm}}
+
+\newcommand{\fwhm}{{\scriptsize{FWHM}}}
+\end_preamble
+\options iop
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_math auto
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine natbib
+\cite_engine_type authoryear
+\biblio_style apj
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Abstract
+Stuff goes here woooo
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+title{An H$
+\backslash
+alpha$ Survey of the Small Magellanic Cloud with Wisconsin H$
+\backslash
+alpha$ Mapper }
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+author{B.
+ M.
+ Smart}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+affil{Department of Astronomy, University of Wisconsin-Madison}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+author{L.
+ M.
+ Haffner}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+affil{Department of Astronomy}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+author{K.
+ A.
+ Barger}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+affil{Texas Christian University, Fortworth Texas}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+and
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+author{A.
+ Hill}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+affil{???}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Introduction
+\end_layout
+
+\begin_layout Standard
+The Small Magellanic Cloud (SMC) is a nearby dwarf irregular galaxy with
+ a gas rich interstellar medium (ISM).
+ As a member of a three galaxy system, the Large Magellanic Cloud, Small
+ Magellanic Cloud, and the Milky Way, the SMC has undergone interactions
+ which have resulted in an extended envolope of neutral gas
+\begin_inset CommandInset citation
+LatexCommand citep
+key "gardiner1994numerical,gardiner1996nbodysimulations,besla2007arethe"
+
+\end_inset
+
+.
+ The extent of the HI envelope has been thoroughly studied 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "hindman1963alow,stanimirovic1999thelargescale,bruens2005theparkes,kalberla2005theleidenargentinebonn,nidever2010the200textdegree"
+
+\end_inset
+
+, with the total neutral gas mass measured at 4.0 x 10
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+8
+\end_layout
+
+\end_inset
+
+ M
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+ʘ
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "bruens2005theparkes"
+
+\end_inset
+
+.
+ However, studies of the ionized portion of the gas have been primarily
+ limited to HII regions, supernovae remnants, and large filamentary structures
+\begin_inset CommandInset citation
+LatexCommand citep
+key "lecoarer1993halphasurvey"
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+As is apparent from our own Milky Way's warm ionized medium (WIM), ionized
+ gas is pervasive beyond the denser structures observed in a galaxy (HII
+ regions/supernovae remnants/filaments) 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "hill2012modernview"
+
+\end_inset
+
+.
+ In the Milky Way, the WIM has a filling factor of 
+\begin_inset Formula $\AC$
+\end_inset
+
+30% 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "reynolds1977pulsardispersion,berkhuijsen1998thevolume,berkhuijsen2006filling"
+
+\end_inset
+
+, with emission visible in every direction.
+ It is pervasive throughout the galaxy, which lends insight into the source
+ of ionizing photons that power the WIM.
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "miller1993thediffuse"
+
+\end_inset
+
+, 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "dove1994photoionization"
+
+\end_inset
+
+, and 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "dove2000theescape"
+
+\end_inset
+
+ suggest that radiation from early-type stars leaked through the cold H
+ I clouds where they formed, ionizing a warm neutral medium throughout the
+ galaxy.
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "mckee1977atheory"
+
+\end_inset
+
+ proposed that, instead of a warm medium ionized by young stars, the WIM
+ could be the result of the surfaces of neutral clouds embedded in a hot
+ medium.
+ However, it is difficult to get a complete census of possible ionizing
+ sources into the MW due to our location.
+ Galaxies like the SMC give us a chance to explore these scenarios while
+ having a thorough overview of the structure of a galaxy and the collective
+ sources of ionization.
+\end_layout
+
+\begin_layout Standard
+Magellanic irregular galaxies are similarly expected to have a high ionization
+ fraction of their interstellar gas.
+ However, few studies have been conducted investigating the WIM (referred
+ to as diffuse ionized gas (DIG) outside the MW) in dwarf galaxies.
+ There are a limited number of studies of the DIG which used aperture photometry
+ to measure 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ha
+\backslash
+ 
+\end_layout
+
+\end_inset
+
+ emission 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "hunter1990properties,hunter1992supergiant,hunter1993asurvey"
+
+\end_inset
+
+.
+ Hunter (1990) found that 15%-20% of 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ha
+\backslash
+ 
+\end_layout
+
+\end_inset
+
+ emission in dwarf irregular galaxies is from the diffuse ionized medium.
+ Unlike the Milky Way, constraining the filling factor and densities of
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ha
+\backslash
+ 
+\end_layout
+
+\end_inset
+
+ emitting gas in these galaxies is difficult, so the total ionization fraction
+ of the galaxies could not be determined.
+ Using assumptions of the properties of the DIG, they suggest that diffuse
+ material is the dominant form of ionized gas in dwarf irregulars.
+ However, these surveys focused more on the bright structures within the
+ galaxies than the faint portion of the DIG.
+ This restriction to brighter structures is due to the difficulty in detecting
+ the DIG in dwarf irregulars.
+ The prior studies listed were at the detection limit of their telescopes.
+ Hunter (1993) took deep 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ha
+\backslash
+ 
+\end_layout
+
+\end_inset
+
+ images of 51 irregular and amorphous galaxies, detecting emission down
+ to a few Rayleighs for the more nearby galaxies.
+ The COS/UVES Absorption Survey by 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "fox2013thecosuves"
+
+\end_inset
+
+ pushed the limit much lower, detecting ionized gas associated with the
+ Magellanic Cloudss at much lower column densities (
+\begin_inset Formula $\AC$
+\end_inset
+
+10%).
+ However they were limited to 69 AGN's located near the Magellanic System
+ and along the Stream.
+ WHAM is able to probe fainter gas than Hunter (1993), down to a few mR,
+ and cover the entire SMC region.
+ A study of the nearby Magellanic Bridge revealed that diffuse ionized gas
+ should trace the neutral component, and may extend several degrees beyond
+ the neutral boundaries.
+ Additionally, the study suggested an upper boundary of 50% ionization of
+ the gas within the Bridge system
+\begin_inset CommandInset citation
+LatexCommand cite
+key "barger2013warmionized"
+
+\end_inset
+
+.
+ If similar conditions exist within the SMC, then a large fraction of the
+ gas has gone undetected by previous studies.
+ 
+\end_layout
+
+\begin_layout Standard
+To determine if the SMC has a similar high ionization fraction as predicted
+ by the Bridge study, we present an Hα emission survey of the SMC using
+ the Wisconsin Hα Mapper (WHAM) observatory.
+ Section 2 includes a description of the WHAM and the Hα observations.
+ Section 3 covers the data reduction process, which includes the velocity
+ calibration and the removal of atmospheric line.
+ We present the non-extinction corrected Hα intensity map of the SMC in
+ Section 4 and discuss the differences and similarities of the Hα and H
+ I emission.
+ In Section 5, we compare the behaviors of the Hα and H I gas, including
+ their emission levels and velocity distributions.
+ We investigate the total mass of the SMC by addressing the distribution
+ of neutral and ionized gas in Section 6.
+ We list our major conclusions in Section 7.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement t
+wide true
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="1" columns="1">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="center" valignment="top" width="0pt">
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename ../thesisproposal/magellanicstreamhi_edit copy.jpg
+	display false
+	width 80text%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Placeholder figure
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Observations
+\end_layout
+
+\begin_layout Standard
+The WHAM facility was specifically designed to study faint optical emission
+ lines from diffuse sources.
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ha
+\backslash
+ 
+\end_layout
+
+\end_inset
+
+ emission is produced through a recombination of an electron with a proton.
+ The intensity of the line is dependent on the integrated electron density
+ squared, also known as the Emission Measure.
+ As a result, these lines are very weak in low-density ionized gas and an
+ instrument with high sensitivity is necessary to observe them.
+ Previous studies listed in Section 1 detected 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ha
+\backslash
+ 
+\end_layout
+
+\end_inset
+
+ with lower limit emission measures of 0.1-0.41 R.
+ However, these studies were limited to the central star region of the SMC.
+ WHAM is sensitive down to about 20 mR, limited primarily by foreground
+ atmospheric lines.
+ WHAM is specialized to detect faint, optical emission from diffuse ionized
+ sources with a sensitivity of a few hundredths of a Rayleigh.
+ The spectrometer, described in detail by 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "haffner2003thewisconsin"
+
+\end_inset
+
+, consists of a dual-etalon Fabry-Perot spectrometer that produces a 200
+ km s
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+-1
+\end_layout
+
+\end_inset
+
+ wide spectrum with 12 km s
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+-1
+\end_layout
+
+\end_inset
+
+ velocity resolution from light integrated over a 1◦ beam.
+ 
+\end_layout
+
+\begin_layout Standard
+WHAM is composed of a dual-etalon Fabry-Perot spectrometer with a 0.6 m siderosta
+t.
+ In WHAM's normal spectral mode, it has a 
+\begin_inset Formula $1\arcdeg$
+\end_inset
+
+ field of view on the sky and a 12 km/s spectral resolution.
+ This setup produces a spectrum that reflects the integrated emission within
+ the beam and not of individual sources such as stars.
+ WHAM's spectral resolution is well-matched to the typical 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ha
+\backslash
+ 
+\end_layout
+
+\end_inset
+
+ lines from diffuse ionized gas, which typically have FWHM of 
+\begin_inset Formula $\geq$
+\end_inset
+
+ 20 km/s.
+ A 30-second exposure can achieve a signal-to-noise of 20 for a 0.5 R line
+ with a width of 20 km s
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+-1
+\end_layout
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+Observations of the SMC were taken from October 1st, 2010, and January 5th,
+ 2011 by Kat Barger and Alex Hill.
+ We fully sampled the Hα emission of the SMC with WHAM at an angular resolution
+ of 1
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+◦
+\end_layout
+
+\end_inset
+
+ and a velocity resolution of 12 km s
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+− 1
+\end_layout
+
+\end_inset
+
+ over the local standard of rest (LSR) velocity range 50 to 250 km s
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+−1
+\end_layout
+
+\end_inset
+
+ from ( l , b ) = (289.5
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+◦
+\end_layout
+
+\end_inset
+
+ , − 35.0
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+◦
+\end_layout
+
+\end_inset
+
+) to (315.1
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+◦
+\end_layout
+
+\end_inset
+
+, − 55.3
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+◦
+\end_layout
+
+\end_inset
+
+).
+ 
+\end_layout
+
+\begin_layout Standard
+Observations are grouped into “blocks” of 30–50 Nyquist sampled pointings
+ of the entire SMC at 0.5
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+◦
+\end_layout
+
+\end_inset
+
+ spacings.
+ These observations were taken at Cerro Tololo Inter-American Observatory.
+ Each single observation had an exposure time of 30 s, with total observation
+ times of a single block ranging from 15-30 minutes.
+ Keeping exposure times short reduces the variations observed in atmopsheric
+ lines.
+ 
+\end_layout
+
+\begin_layout Subsection
+Data Reduction
+\end_layout
+
+\begin_layout Standard
+To reduce the data, we used the ring-summing and flat-fielding procedures
+ described in Haffner et al.
+ (2003).
+ After the data was ring summed, we callibrated the 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ha
+\backslash
+ 
+\end_layout
+
+\end_inset
+
+ velocities using atmopsheric lines, subtracted the atmospheric emission,
+ and callibrated the night to night tramission variations to normalize the
+ data.
+\end_layout
+
+\begin_layout Subsection
+Velocity Callibration
+\end_layout
+
+\begin_layout Standard
+The spectra are inittialy pre-processed, ring-summed, and flat fielded.
+ This leaves the spectra in 2 km s
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+-1
+\end_layout
+
+\end_inset
+
+ bins over a 200 km s
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+-1
+\end_layout
+
+\end_inset
+
+window.
+ The OH line at v
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+geo
+\end_layout
+
+\end_inset
+
+ = +272.77 km s
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+-1
+\end_layout
+
+\end_inset
+
+dominates the edge of the velocity window.
+ We use the OH line in combination with an estimated velocity shift based
+ on the velocity window tune.
+ This velocity offset is then added to the spectra.
+ Due to the velocity frame not including the entire OH line, there is some
+ uncertianty over the corrected velocity.
+ However, by comparing the estimated velocity from the spectrometer tune
+ with the expected velocity from the OH line, we reduce our uncertianty.
+\end_layout
+
+\begin_layout Subsection
+Removing Atmospheric Emission
+\end_layout
+
+\begin_layout Standard
+The bright OH line contaminates the spectra at +260 vgeo +290 km s
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+-1
+\end_layout
+
+\end_inset
+
+.
+ As a result, this line does occasionally overlap with the Hα emission features
+ close to SMC velocities.
+ Fainter atmospheric emission is present below ∼ 0.1 R at all velocities
+ in this survey.
+ The removal of both the bright and faint atmospheric lines is crucial for
+ detecting the faint Hα emission between the Magellanic Clouds.
+ To remove the atmospheric contamination, we must remove the background
+ continuum, the bright atmospheric lines, and the faint atmispheric lines.
+\end_layout
+
+\begin_layout Subsubsection
+Background Subtraction
+\end_layout
+
+\begin_layout Standard
+The background continuum emission can be assumed to be flat over all velocities.
+ The baselines are well behaved over the velocity range of this survey,
+ except when contaminated by emission from bright foreground stars.
+ When a foreground star is present, the spectra becomes distorted and creates
+ an elevated, non-linear background with absorption lines.
+ Beams that contain stars with m
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+V
+\end_layout
+
+\end_inset
+
+ < 6 ( ∼ 9%) within a 0.55 radius are excluded from this survey to minimize
+ this foreground contamination and are replaced with an average of the uncontami
+nated observations within 1
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+◦
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsubsection
+Bright Atmospheric Line Subtraction
+\end_layout
+
+\begin_layout Standard
+Night to night changes in the atmosphere cause variations in the strength
+ of the bright and faint atmospheric lines.
+ The OH line (Meriwether 1989) is produced from interactions between solar
+ radiation and Earth’s upper atmosphere and will vary in strength with the
+ direction and the time of the observation.
+ Due to the nightly variations, the OH line at v
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+geo
+\end_layout
+
+\end_inset
+
+ = +272.44 km s
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+−1
+\end_layout
+
+\end_inset
+
+ is always fitted seperately from the faint atmospheric lines.
+ To remove this line we fit a single Gaussian profile convolved with the
+ instrument profile.
+ Two effects alter the shape bright atmospheric lines: (1) The precision
+ in aligning the dual-etalon transmission functions (spectrometer “tuning”)
+ can result in very slight night- to-night variations in the instrument
+ profile at a level only detectable in narrow, bright lines.
+ (2) A geocoronal “ghost”—due to an incomplete suppression of a geocoronal
+ line at vgeo = −2.3 km s
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+−1
+\end_layout
+
+\end_inset
+
+ from a neighboring order in the high-resolution etalon (see Haffner et
+ al.
+ 2003)—lies underneath the OH line at vgeo = +272.44 km s
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+−1
+\end_layout
+
+\end_inset
+
+.
+ However, due to the velocity window only containing a portion of the OH
+ line, it is difficult to perfectly fit, especially when SMC emmision may
+ lie underneath the OH line.
+ Removal of some higher velocity SMC emission is unavoidable.
+ To try and minimize removal of SMC emission, we assign a width of 10 km
+ s
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+−1
+\end_layout
+
+\end_inset
+
+to the gaussian to prevent inclusion of lower velocity emission not attributed
+ to the OH line.
+\end_layout
+
+\begin_layout Subsubsection
+Faint Atmopsheric Line Subtraction
+\end_layout
+
+\begin_layout Standard
+While the OH line dominates, faint atmospheric lines are present throughout
+ the entire spectrum.
+ The strength of these faint atmospheric lines changes primarily with airmass.
+ To create a synthetic atmopsheric model, we observed two directions faint
+ in Hα emission multiple times over 10 days to create an average spectrum
+ with a high signal-to-noise ratio.
+ This averaged spectrum consists of numerous 30- and 60-second ob- servations,
+ totaling 4.5 hours of integrated exposure time, towards (l,b) = (60.0, −67.0)
+ and (89.0, −71.0).
+ These are 
+\begin_inset Quotes eld
+\end_inset
+
+faint
+\begin_inset Quotes erd
+\end_inset
+
+ directions that appear to have no strong Hα emission, so that we can identify
+ atmopsheric lines.
+ These faint lines are characterised in Hausen et al.
+ (2002) and Haffner et al.
+ (2003), with similar characteristics for the faint atmospheric lines near
+ Hα in the northern hemisphere observed towards the Lockman Window.
+ We removed the faint atmospheric lines from the SMC observations by scaling
+ the synthetic atmospheric template to match the atmospheric contamination.
+ This accounts for changes in the flux due to airmass and daily fluctuations.
+ We then subtract the scaled atmospheric template from the observation.
+ 
+\end_layout
+
+\begin_layout Section
+H
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ha
+\backslash
+ 
+\end_layout
+
+\end_inset
+
+ intensity map
+\end_layout
+
+\begin_layout Standard
+The SMC was observed from (l,b) = 315.5°, -55.48°) to (289.5°, -34.5°) over
+ a velocity range of +50 to +250 km s
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+-1
+\end_layout
+
+\end_inset
+
+in the LSR frame.
+ Figure 2 displays the non-extinction corrected total integrated intensity
+ of the SMC in 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ha
+\backslash
+ 
+\end_layout
+
+\end_inset
+
+ next to a column density map of HI .
+ The HI and 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ha
+\backslash
+ 
+\end_layout
+
+\end_inset
+
+ map are integrated over +50 to +210 km s
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+-1
+\end_layout
+
+\end_inset
+
+to avoid contamination around +50 km s
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+-1
+\end_layout
+
+\end_inset
+
+by Milky Way emission, and to avoid the wings of the OH line at v
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+geo
+\end_layout
+
+\end_inset
+
+= +272.44 km s
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+-1
+\end_layout
+
+\end_inset
+
+.
+ The HI spectra where obtained from the LAB survey
+\begin_inset CommandInset citation
+LatexCommand cite
+key "kalberla2005theleidenargentinebonn"
+
+\end_inset
+
+, smoothed to 1° to match the WHAM angular resolution.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement !t
+wide true
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Tabular
+<lyxtabular version="3" rows="1" columns="2">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="center" valignment="top" width="0pt">
+<column alignment="center" valignment="top" width="0pt">
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename smc_ha.pdf
+	display false
+	width 100col%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename smc_hi.pdf
+	display false
+	width 100col%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Comparison of HI and 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ha
+\backslash
+ 
+\end_layout
+
+\end_inset
+
+ .
+ The HI scaling is limited to a column density of 
+\begin_inset Formula $1\cdot10^{19}cm^{-2}$
+\end_inset
+
+ to highlight the faint HI emission.
+ The 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ha
+\backslash
+ 
+\end_layout
+
+\end_inset
+
+ emission is limited to .6 R, with a lower limit of .01 R, the limit of WHAM
+ sensitivity.
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+As you can see in figure 2, the brightest 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ha
+\backslash
+ 
+\end_layout
+
+\end_inset
+
+ emssion in the SMC traces closely the regions where the HI column density
+ is greater than 1·10
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+19
+\end_layout
+
+\end_inset
+
+cm
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+-2
+\end_layout
+
+\end_inset
+
+.
+ Outside the core of the SMC, the brighter regions do not trace the densest
+ HI regions.
+ Trailing the SMC towards the Stream, there is a bright region of 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ha
+\backslash
+ 
+\end_layout
+
+\end_inset
+
+ emission.
+ Noticably, the dense 
+\begin_inset Quotes eld
+\end_inset
+
+arm
+\begin_inset Quotes erd
+\end_inset
+
+ of the SMC from -47 to -55 galactic latitude is noticably absent in the
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ha
+\backslash
+ 
+\end_layout
+
+\end_inset
+
+ emission.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement !t
+wide true
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Tabular
+<lyxtabular version="3" rows="1" columns="2">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="center" valignment="top" width="0pt">
+<column alignment="center" valignment="top" width="0pt">
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename smc_v_ha.pdf
+	display false
+	width 100col%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename smc_v_hi.pdf
+	display false
+	width 100col%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Mean Velocity
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Figure 3 presents the mean velocity of the emission in 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ha
+\backslash
+ 
+\end_layout
+
+\end_inset
+
+ and HI.
+ The mean velocity of the HI shows a strong rotational component around
+ the center of the galaxy.
+ In contrast, the 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ha
+\backslash
+ 
+\end_layout
+
+\end_inset
+
+ shows a much weaker rotation.
+ However, we are looking at the total integrated emission, and should the
+ halo around the SMC contain multiple components, it can mask the rotation
+ of the 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ha
+\backslash
+ 
+\end_layout
+
+\end_inset
+
+ in the center of the galaxy.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement !t
+wide true
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Tabular
+<lyxtabular version="3" rows="1" columns="2">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="center" valignment="top" width="0pt">
+<column alignment="center" valignment="top" width="0pt">
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename smc_sm_ha.pdf
+	display false
+	width 100col%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename smc_sm_hi.pdf
+	display false
+	width 100col%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Mean component width 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+In both galaxies, the velocity components have a width around 20 km/s in
+ the brighter regions.
+ However, the bridge region has a wider velocity component.
+ The 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ha
+\backslash
+ 
+\end_layout
+
+\end_inset
+
+ widths are limited to ~ 12 km/s due to WHAM's resolution limitations.
+ 
+\end_layout
+
+\begin_layout Subsection
+H
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ha
+\backslash
+ 
+\end_layout
+
+\end_inset
+
+ instensity and column density
+\end_layout
+
+\begin_layout Standard
+We measure the total 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ha
+\backslash
+ 
+\end_layout
+
+\end_inset
+
+ emission to estimate the total ionized gas mass of the Small Magellanic
+ Cloud.
+ We calculate the mass of the ionized gas as M
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+H+
+\end_layout
+
+\end_inset
+
+ = 1.4m
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+H
+\end_layout
+
+\end_inset
+
+n
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+e
+\end_layout
+
+\end_inset
+
+D
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+
+ΩL
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+H+
+\end_layout
+
+\end_inset
+
+, where Ω is the solid angle, D is the distance from the Sun, m
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+H
+\end_layout
+
+\end_inset
+
+ is mass of a hydrogen atom, and the factor of 1.4 accounts for helium.
+ The integral of the square of the electron density over the path length
+ of ionized gas is the emission measure (EM), which determines the strength
+ of the 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ha
+\backslash
+ 
+\end_layout
+
+\end_inset
+
+ emission.
+ The emission measure in its basic form is EM=
+\begin_inset Formula $\int n_{e}^{2}dl$
+\end_inset
+
+, however for 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ha
+\backslash
+ 
+\end_layout
+
+\end_inset
+
+ emission the emission measure can be written as
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+EM=2.75(\frac{T}{10^{4}K})^{0.924}(\frac{I_{Hα}}{R})cm^{-6}pc
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+If we then assume that the electron density is a constant, you can rewrite
+ the equation to solve for the line of sight depth.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+L_{H^{+}}=2.75(\frac{T}{10^{4}K})^{0.924}(\frac{I_{Hα}}{R})(\frac{n_{e}}{cm^{-3}})^{-2}pc
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The emission measure can be used to solve for the mass in the beam.
+ During the data reduction, the Nyquist sampled beams are smoothed and become
+ square pixels with effective sizes of 
+\begin_inset Formula $.25\arcdeg$
+\end_inset
+
+.
+ This requires us to use a square solid angle, where the solid angle is
+ calculated as 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\Omega=4arcsin(sin(\frac{\theta_{h}}{2})sin(\frac{\theta_{v}}{2}))
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+With the smoothed pixels, the mass equation becomes
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+(\frac{M_{H^{+}}}{M_{sun}})_{beam}=0.659(\frac{D}{kpc})^{2}(\frac{EM}{pc*cm^{-6}})(\frac{n_{e}}{cm^{-3}})^{-1}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+where D is the estimated distance in kiloparsecs.
+ The distance to any section of the SMC is taken as the average distance
+ of .
+ Due to the variation in D, the calculation of the mass of the Stream will
+ be integrated over varying distances.
+ However, we will still be able to obtain an upper and lower limit for the
+ total mass of ionized gas in the Stream based on the estimated range of
+ distances.
+\end_layout
+
+\begin_layout Section
+Discussion and Conclusions
+\end_layout
+
+\begin_layout Standard
+For our mass estimates, we assume two different scenarios.
+ The first scenario assumes a constant electron density, with the line of
+ sight depths based on this assumption.
+ The second scenario uses line of sight depths estimated from a combination
+ of stellar depth models and galaxy simulations.
+ We include the various models in figure X to show the range of masses estimated
+ using the various methods.
+ Unlike the Magellanic Bridge, simple morphology is unlikely in the SMC.
+ 
+\end_layout
+
+\begin_layout Subsection
+Future Work
+\end_layout
+
+\begin_layout Standard
+Regions of the continious SMC gas envelope that were not covered in this
+ survey will be included in the forthcoming Magellanic Stream Survey.
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset bibtex
+LatexCommand bibtex
+bibfiles "ThesisProposal,smcbib,/Users/bsmart/Desktop/thesisproposal/ThesisProposal"
+options "apj"
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document
